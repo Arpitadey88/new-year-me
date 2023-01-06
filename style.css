@@ -1,3 +1,57 @@
-header{
-    color: brown;
+/* globaly used css starts here*/
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.text-primary {
+    color: #005FAC;
+}
+
+.btn-primary {
+    color: #005FAC;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.btn-secondary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background: #005FAC;
+}
+
+/* css styles start for header banner area */
+.header-banner {
+    background-image: url(./assets/images/banner3.png);
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+    width: 100%;
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    align-items: center;
+}
+
+.header-banner-content {
+    color: #FFFFFF;
+    margin-right: 200px;
+}
+
+.header-banner-title {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.header-banner-text {
+    padding: 15px 0;
+}
+/* css styles end for header banner area */
