@@ -13,15 +13,16 @@
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 8px 30px;
+    padding: 10px 35px;
+    margin-top: 10px;
     border-radius: 5px;
     background: #FFFFFF;
 }
 
 .btn-secondary {
     color: #FFFFFF;
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 16px;
     border: 0;
     padding: 8px 30px;
     border-radius: 5px;
@@ -46,7 +47,8 @@
     margin-right: 200px;
 }
 
-.header-banner-title {
+.header-banner-title,
+.gradient-banner-title {
     font-size: 55px;
     font-weight: bold;
 }
@@ -59,7 +61,7 @@
 /*----------------------**************************-------------------------*/
 /* css styles start for main banner area */
 .main-banner-content {
-    margin: auto;
+    margin: 100px auto;
     max-width: 1000px;
     display: flex;
     justify-content: space-evenly;
@@ -93,15 +95,16 @@ div>p>i {
 /*----------------------**************************-------------------------*/
 /* css styles start for my plans area */
 .plans-area {
+    max-width: 1000px;
+    margin: auto;
     border-radius: 10px;
-    padding: 130px 150px;
     text-align: center;
 }
 
 .section-title {
     text-align: center;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 50px;
 }
 
@@ -116,14 +119,63 @@ div>p>i {
 }
 
 .plans-area .info-title {
-    margin: 12px 0;
+    margin: 14px 0;
     font-size: 24px;
     font-weight: 900;
 }
 
 .info-description {
     font-size: 14px;
-    color: #474747;
+    color: grey;
 }
 
 /* css styles end for my plans area */
+/*----------------------**************************-------------------------*/
+/* css styles starts for gradient banner area */
+
+.gradient-banner-content {
+    background: linear-gradient(90deg, #005FAC, #18040475),
+        url(./assets/images/watch.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1000px;
+    border-radius: 8px;
+    margin: 100px auto;
+    padding: 30px;
+    color: #FFFFFF;
+    height: 200px;
+}
+
+/* css styles end for my gradient banner area */
+/*----------------------**************************-------------------------*/
+/* css styles starts for footer area */
+.footer-area {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text>p {
+    margin: 12px 0;
+}
+
+.footer-text>img {
+    height: 33px;
+    padding-right: 8px;
+    margin-top: 5px;
+}
+
+.footer-input input {
+    margin: 6px 0;
+    padding: 10px 40px;
+}
+
+/* css styles ends for footer area */
