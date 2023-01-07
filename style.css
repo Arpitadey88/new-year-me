@@ -4,10 +4,6 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.text-primary {
-    color: #005FAC;
-}
-
 .btn-primary {
     color: #005FAC;
     font-weight: 700;
@@ -29,7 +25,56 @@
     background: #005FAC;
 }
 
+.btn-login {
+    border: 3px solid;
+    height: 45px;
+    width: 130px;
+    background-color: #FFFFFF;
+    color: #005FAC;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 30px;
+    margin-right: 30px;
+}
+
 /* css styles start for header banner area */
+.main-header-area {
+    background: linear-gradient(90deg, #005FAC, #0197d1, #005FAC);
+}
+
+.nav-area {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-area ul {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-area ul li {
+    list-style: none;
+    padding-right: 40px;
+}
+
+.nav-area ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-login>i,
+.btn-login>p {
+    font-size: 18px;
+    color: #005FAC;
+    font-weight: 600;
+}
+
 .header-banner {
     background-image: url(./assets/images/banner3.png);
     background-size: cover;
@@ -47,13 +92,13 @@
     margin-right: 200px;
 }
 
-.header-banner-title,
-.gradient-banner-title {
+.header-banner-title {
     font-size: 55px;
     font-weight: bold;
 }
 
 .header-banner-text {
+    color: #FFFFFF;
     padding: 15px 0;
 }
 
@@ -61,29 +106,32 @@
 /*----------------------**************************-------------------------*/
 /* css styles start for main banner area */
 .main-banner-content {
-    margin: 100px auto;
+    margin: 80px auto;
     max-width: 1000px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .main-banner-img img {
     height: 500px;
 }
-
+.main-banner-text{
+    width: 50%;
+}
 .main-banner-text h2 {
     font-size: 35px;
 }
 
 .main-banner-text .details {
     margin: 20px 0;
-    line-height: 18px;
+    line-height: 22px;
     font-size: 14px;
 }
 
 div>p {
     font-size: 14px;
+    line-height: 20px;
 }
 
 div>p>i {
@@ -131,9 +179,50 @@ div>p>i {
 
 /* css styles end for my plans area */
 /*----------------------**************************-------------------------*/
+/* css styles starts for blog area */
+.blog-area {
+    margin: 100px auto;
+    background: linear-gradient(90deg, #005FAC, #0197d1, #005FAC);
+}
+
+.blog-area-content {
+    max-width: 1000px;
+    padding: 70px 0;
+    margin: auto;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-area-img img {
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    align-items: space-between;
+}
+
+.blog-area-text {
+    width: 45%;
+}
+
+.blog-area-text>h2 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.blog-area-text>p {
+    margin: 30px 0;
+}
+.blog-btn{
+    font-size: 16px;
+}
+/* css styles end for blog area */
+/*----------------------**************************-------------------------*/
+
 /* css styles starts for gradient banner area */
 
-.gradient-banner-content {
+.call-to-action-content {
     background: linear-gradient(90deg, #005FAC, #18040475),
         url(./assets/images/watch.png);
     background-size: cover;
@@ -144,6 +233,10 @@ div>p>i {
     padding: 30px;
     color: #FFFFFF;
     height: 200px;
+}
+.call-to-action-title {
+    font-size: 50px;
+    font-weight: bold;
 }
 
 /* css styles end for my gradient banner area */
